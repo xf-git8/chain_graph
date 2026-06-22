@@ -1,0 +1,7 @@
+.env
+.venv
+External Libraries
+Scratches and concles
+*.xml
+.idea
+
