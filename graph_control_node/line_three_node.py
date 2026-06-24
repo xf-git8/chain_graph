@@ -42,8 +42,8 @@ graph.add_edge("node_step2", "node_step3")
 graph.add_edge("node_step3", END)
 # 编译图
 graph_build = graph.compile()
-mermaid_png = graph_build.get_graph().draw_mermaid_png()
 # 保存图为图片
+mermaid_png = graph_build.get_graph().draw_mermaid_png()
 with open("graph_structure3.png", "wb") as f:
     f.write(mermaid_png)
 os.startfile(os.path.abspath("graph_structure3.png"))
